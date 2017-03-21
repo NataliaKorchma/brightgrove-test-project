@@ -1,0 +1,190 @@
+!!!
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %title Brightgrove
+    %meta{content: "width=device-width", name: "viewport"}
+    %link{href: 'app/index.css', rel: 'stylesheet'}
+
+  %body
+    .main-wrapper
+      .wrapper
+        %header
+          .container-fluid
+            .logo
+              %a.col-xs-12{href: ''}
+
+        .description-wrapper.clearfix
+          .description-wrapper-content.clearfix
+            .description-wrapper-header
+              .description-wrapper-header--title Steuerberater in Ihrer Region
+              .description-wrapper-header--steps
+                %h4.description-wrapper-header--step.step-name.step1 Auftrag beschreiben
+                %h4.description-wrapper-header--step.step-name.step2 Passende Angebote erhalten
+                %h4.description-wrapper-header--step.step-name.step3 Angebote vergleichen und sparen
+              .description-wrapper-header--search_form.col-sm-9.col-xs-12
+                .description-wrapper-header--search_form-wrapper.clearfix
+                  %form.form-block.col-xs-12
+                    %input{type: "text", placeholder: "PLZ / Ort", class: "form-block-input"}
+                    %button.button-orange.button{type: "button"} Kostenlos angebote erhalten
+
+        .container-fluid
+          .row
+            .col-sm-4.sidebar
+              .sidebar-name Dienstleister
+              %ul.nav.nav-sidebar
+                %li
+                  %a{href: ''} Consensus GmbH Steuerberatungsgesellschaft
+                %li
+                  %a{href: ''} Sonnen & Deden Steuerberatungsgesellschaft - Partnerschaftsgesellschaft
+
+              .sidebar-name Steuerberater finden
+              %ul.nav.nav-sidebar
+                %li
+                  %a{href: ''} Steuerberater-Kosten
+                %li
+                  %a{href: ''} Steuerberatungskanzlei
+                %li
+                  %a{href: ''} Steuerberatergesellschaft
+                %li
+                  %a{href: ''} Steuer- und Unternehmensberatung
+                %li
+                  %a{href: ''} Wirtschaftsprüfer und Steuerberater
+                %li
+                  %a{href: ''} Internationale Steuerberatung
+                %li
+                  %a{href: ''} Steuerberater kündigen
+                %li
+                  %a{href: ''} Steuerberater für Existenzgründer
+                %li
+                  %a{href: ''} Steuerberater für Freiberufler
+
+              %a.show-more-menu{'data-toggle': "collapse", href: "#full-menu"} weitere
+              #full-menu.collapse
+                %ul.nav.nav-sidebar
+                  %li
+                    %a{href: ''} Steuerberatungskanzlei
+                  %li
+                    %a{href: ''} Steuerberatergesellschaft
+                  %li
+                    %a{href: ''} Steuer- und Unternehmensberatung
+                  %li
+                    %a{href: ''} Wirtschaftsprüfer und Steuerberater
+                  %li
+                    %a{href: ''} Internationale Steuerberatung
+
+            .col-sm-8.col-xs-12.article-wrapper
+              .col-xs-12.socials-block
+                %a{href: ''}.facebook-advert
+                %a{href: ''}.google-plus
+              .col-sm-10.col-xs-12.article-content
+                %h1.article-title.clearfix Der unkomplizierte Weg zu einem Steuerberater in Ihrer Nähe
+                .article-description
+                  %p Nachdem Sie das übersichtliche Anfrageformular ausgefüllt haben, kontaktieren wir unsere Steuerberater in der gewünschten Region, um Ihren Auftrag weiter zu vermitteln. Sie erhalten kostenlos bis zu drei Angebote ‘frei Haus’, die Sie aus freien Stücken annehmen können. Sie bezahlen nur die Dienstleistung des Steuerberaters, sofern Sie sich für eines der Angebote entscheiden. Möchten Sie keines der Angebote annehmen, entstehen Ihnen auch in diesem Fall keinerlei Kosten.
+                  %p
+                    %img{src: "/assets/images/image-article.png", alt: "", class: "article-description-image", align:"right"}
+                    Nachdem Sie das übersichtliche Anfrageformular ausgefüllt haben, kontaktieren wir unsere Steuerberater in der gewünschten Region, um Ihren Auftrag weiter zu vermitteln. Sie erhalten kostenlos bis zu drei Angebote ‘frei Haus’, die Sie aus freien Stücken annehmen können. Sie bezahlen nur die Dienstleistung des Steuerberaters, sofern Sie sich für eines der Angebote entscheiden. Möchten Sie keines der Angebote annehmen, entstehen Ihnen auch in diesem Fall keinerlei Kosten.
+                %h2.article-title Wir möchten Ihnen gerne – kostenlos! – einen Anbieter vermitteln.
+                %ul
+                  %li
+                    %b Minimaler Aufwand:
+                    Ihr Auftrag wird umgehend bearbeitet, damit Sie so schnell wie möglich den idealen Steuerberater in Ihrer Nähe finden. Sie erhalten maßgeschneiderte Angebote zum Vergleich.
+                  %li
+                    %b Minimaler Aufwand:
+                    Ihr Auftrag wird umgehend bearbeitet, damit Sie so schnell wie möglich den idealen Steuerberater in Ihrer Nähe finden. Sie erhalten maßgeschneiderte Angebote zum Vergleich.
+                  %li
+                    %b Minimaler Aufwand:
+                    Ihr Auftrag wird umgehend bearbeitet, damit Sie so schnell wie möglich den idealen Steuerberater in Ihrer Nähe finden. Sie erhalten maßgeschneiderte Angebote zum Vergleich.
+                %table.table
+                  %thead.table-title
+                    %tr
+                      %th.table-cell-width Table One
+                      %th Table Two
+                      %th Three
+                  %tbody
+                    %tr
+                      %td Content One
+                      %td Content Two
+                      %td Content Three
+                    %tr
+                      %td Content One
+                      %td Content Two
+                      %td Content Three
+                    %tr
+                      %td Content One
+                      %td Content Two
+                      %td Content Three
+
+                %section.feedback-wrapper
+                  %h3.feedback-title
+                    Folgende Kanzleien bieten Steuerberatung in
+                      %b Essen
+                      &nbsp;
+                      an:
+                  %section.feedback.clearfix
+                    .feedback-card.col-sm-6
+                      .feedback-content
+                        .feedback-header Gerhard Bühner Steuerberater
+                        .feedback-address
+                          Springemarkt 1
+                          %br 45894 Gelsenkirchen
+                    .rating-card.col-sm-6
+                      %div.rating-card-container
+                        .rating-card-wrapper
+                          .rating-card-content
+                            .rating-card-label KUNDENBEWERTUNG
+                            %div.rating-card-stars
+                              %span.rating-card-sprite
+                            %div.rating-card-human-mark SEHR GUT
+                            %div.rating-card-mark
+                              4.6 /
+                              %span 5.0
+                            .rating-card-total
+                              %span.rating-card-count 38
+                              %span Kundenmeinumgen
+                            .rating-card-date 22.09.2015
+                    .feedback-footer
+                      Mitglied seit:
+                      %span.feedback-date 14.10.2010
+
+            %section.search-block.col-sm-8.col-xs-12
+              .search-block-header.text-center Jetzt den richtigen Steuerberater finden
+              .search-block-title.text-center Kostenlos attraktive Angebote von hier registrierten Steuerberatern erhalten!
+              .search-block-wrapper-header--search_form
+                .search-block-wrapper-header--search_form-wrapper.clearfix
+                  %form.form-block.clearfix.col-sm-12.col-sm-offset-0.col-md-11.col-md-offset-1.col-xs-12
+                    .col-lg-4.col-md-5.col-sm-5.col-xs-12
+                      .row
+                        %input{type: "text", placeholder: "PLZ / Ort", class: "form-block-input"}
+                    .col-lg-6.col-md-7.col-sm-7.col-xs-12
+                      .row
+                        %button.button-orange.button{type: "submit"} Kostenlos angebote erhalten
+
+      %footer
+        .footer-content.col-xs-12.col-sm-12.col-md-10.col-lg-11.col-md-offset-2.col-lg-offset-1
+          %ul.footer-menu.nav.navbar-nav
+            %li
+              %a{href: ''} Startseite
+            %li
+              %a{href: ''} Kontakt
+            %li
+              %a{href: ''} Impressum
+            %li
+              %a{href: ''} AGB
+            %li
+              %a{href: ''} Datenschutz
+            %li
+              %a{href: ''} Über uns
+            %li
+              %a{href: ''} Karriere
+            %li
+              %a{href: ''} bewertet.de Erfahrungen
+            %li
+              %a{href: ''} Unsere Partner
+            %li.social
+              %a{href: ''}.facebook-icon
+            %li.salesworker-link
+              %a{href: ''} 2015-salesworker.com GmbH
+
+    %script{src:"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"}
+    %script{src:"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"}
